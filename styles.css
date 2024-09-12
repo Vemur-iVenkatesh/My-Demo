@@ -253,6 +253,7 @@
 
 
 
+
 .get__the_app{
     display: flex;
     align-items: center;
@@ -399,4 +400,117 @@
   }
 }
 
+.Exp_Container{
+   flex-direction: column;
+    padding-top: 15px;
+    display: flex;
+    gap:20px
+    
+}
+.exp_card{
+    width:100%;
+    padding: 20px;
+    border:1px solid rgb(123, 121, 121);
+    border-radius: 8px;
+    display: flex;
+    
 
+}
+.Exp_Content h4{
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Footer{
+    width: 100%;
+    background-color: rgb(163, 159, 159);
+}
+
+.footer_section1{
+    padding-top:60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.footer_section1 button {
+    padding: 15px;
+    border-radius: 10px;
+    border:1px solid grey;
+}
+
+
+.footer_section1 img{
+    width: 130px;
+}
+
+.Sub_Content{
+    padding: 15px;
+    display: flex;
+    gap:6rem;
+}
+.sb{
+    display: flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.social__links_container button{
+    
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.social__links_container button i{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__section_logos{
+    width:100%;
+    height:50px
+
+}
+
+
+.Sub_Content h4{
+font-weight: 500;
+
+}
+.Sub_Content .sb a{
+    text-decoration: none;
+    color: rgb(45, 44, 44);
+}
+.paragargh{
+    padding:15px;
+    border-top: 1px solid rgb(108, 105, 105);;
+}
+.paragargh p{
+    font-size: 15px;
+    
+    color: rgb(108, 105, 105);
+
+}
+@media only screen and (max-width:900px) {
+    .Sub_Content{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width:450px) {
+    .Sub_Content{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:300px) {
+    .Sub_Content{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
